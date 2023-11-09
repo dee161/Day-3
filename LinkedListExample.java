@@ -30,6 +30,7 @@ public class LinkedListExample {
         }
         System.out.println();
 
+        
         ListIterator<Integer> listIterator = linkedList.listIterator(linkedList.size());
         System.out.println("Reversed Linked List:");
         while (listIterator.hasPrevious()) {
