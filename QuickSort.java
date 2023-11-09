@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class QuickSort {
-
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(arr, low, high);
@@ -24,7 +23,7 @@ public class QuickSort {
     }
 
     private static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
+        int temp = arr[i]; 
         arr[i] = arr[j];
         arr[j] = temp;
     }
