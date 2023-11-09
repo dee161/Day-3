@@ -56,7 +56,7 @@ class Demo {
         add = a;
         div = d;
         multi = m;
-        sub = s;
+        sub = s; 
         name = sname;
         stringLength = inputString.length();
     }
